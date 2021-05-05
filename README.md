@@ -17,9 +17,8 @@ pip3 install -r requirements.txt
 
 ### Data
 
-The preprocessing tools that extracts medical code for datasets are enclosed in [data](). Run the command:
 ```
-python3 preprocess_{dataset}.py --input_path {dataset_path} --output_path {storage_path}
+scan ID and patient ID is availabel in 
 ```
 
 
@@ -28,8 +27,9 @@ python3 preprocess_{dataset}.py --input_path {dataset_path} --output_path {stora
 train by running command:
 
 ```
-python3 train.py --data_path {storage_path} --embedding_size 512 --result_path {model_path}
+python3 train.py
 ```
+You can create your own config files and add a --config flag to indicate the name of your config files.
 
 ## Model Overview
 
