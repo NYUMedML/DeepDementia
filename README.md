@@ -18,7 +18,7 @@ pip3 install -r requirements.txt
 ### Data
 
 ```
-scan ID and patient ID is availabel in 
+scan ID and patient ID is available
 ```
 
 
