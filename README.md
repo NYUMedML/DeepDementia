@@ -33,4 +33,4 @@ python3 train.py --data_path {storage_path} --embedding_size 512 --result_path {
 
 ## Architecture
 
-<img src="https://github.com/NYUMedML/DeepDementia/overview.pdf" alt="drawing" width="900"/>
+<img src="https://github.com/NYUMedML/DeepDementia/blob/main/overview.pdf" alt="drawing" width="900"/>
