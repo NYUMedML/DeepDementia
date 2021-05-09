@@ -8,11 +8,13 @@ Early diagnosis of Alzheimer’s disease plays a pivotal role in patient care an
 
 ### Prerequisites
 
-Required packages can be installed on **python3.6** environment via command:
-
-```
-pip3 install -r requirements.txt
-```
+- Python 3.6
+- PyTorch 0.4
+- torchvision
+- progress
+- matplotlib
+- numpy
+- visdom
 
 
 ### Data
