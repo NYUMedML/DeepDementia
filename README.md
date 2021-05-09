@@ -17,8 +17,10 @@ pip3 install -r requirements.txt
 
 ### Data
 
+The IDs of patients and scans used in our study and training, validation, test as well as Freesurfer segmentation volume and thickness features for ADNI and NACC are available under folder
+
 ```
-scan ID and patient ID is available
+Data
 ```
 
 
@@ -27,9 +29,15 @@ scan ID and patient ID is available
 train by running command:
 
 ```
-python3 train.py
+python src/train.py
 ```
 You can create your own config files and add a --config flag to indicate the name of your config files.
+
+
+### Model Evaluation
+The trained deep learning model can be found [here](https://drive.google.com/file/d/1zU21Kin9kXg_qmj7w_u5dGOjXf1D5fa7/view?usp=sharing).
+
+
 
 ## Model Overview
 
